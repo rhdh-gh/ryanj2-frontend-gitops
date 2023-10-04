@@ -1,0 +1,15 @@
+app:
+  name: ryanj2-poi-map-app
+  namespace: ryanj2
+  cluster: .apps.rosa-x4jc7.l07n.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-gh/ryanj2-frontend
+  org: rhdh-gh
+  name: ryanj2-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ryanj2/poi-map-app
+  tag: latest
